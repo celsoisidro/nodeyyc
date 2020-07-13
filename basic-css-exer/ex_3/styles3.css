@@ -1,0 +1,21 @@
+h1.origin {
+    font-size: 50px;
+    color: blue;
+}
+
+p.origin {
+    font-size: 30px;
+    color: gray;
+}
+
+a.origin {
+    font-size: 30px;
+    color: pink;
+    font-style: underlined;
+}
+
+a.origin2 {
+    font-size: 30px;
+    color: green;
+    font-style: underlined;
+}
