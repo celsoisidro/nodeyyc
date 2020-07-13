@@ -1,0 +1,47 @@
+p.first::first-letter {
+    font-size: 200%;
+    color: blue;
+}
+
+p.first {
+    color: purple;
+    background-color: red;
+}
+
+p.second {
+    color: blueviolet;
+    background-color: yellow;
+}
+
+p.third {
+    color: blue;
+    background-color: green;
+}
+
+p.fourth {
+    color: green;
+    background-color: greenyellow;
+}
+
+p.fifth {
+    color: greenyellow;
+    background-color: blue;
+}
+
+p.sixth {
+    color: yellow;
+    background-color: blueviolet;
+}
+
+p.seventh {
+    color: red;
+    background-color: purple;
+    border-style: dashed;
+    margin: 10px 20px 20px 0px;
+    padding: 50px 50px 0px;
+}
+
+p {
+    width: 900px;
+    text-align: center;
+}
