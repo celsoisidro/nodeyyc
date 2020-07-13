@@ -1,0 +1,50 @@
+    * {
+        box-sizing: border-box
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    body {
+        background-color: slategrey;
+    }
+    
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+    }
+    
+    .navbar a {
+        float: left;
+        padding: 3px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+        width: 11.5%;
+        text-align: center;
+    }
+    
+    .navbar a:hover {
+        background-color: #000;
+    }
+    
+    .navbar a.active {
+        background-color: #4CAF50;
+    }
+    
+    .image {
+        position: relative;
+        float: left;
+    }
+    
+    .image .text {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+    }
+    
+    div p {
+        background-color: orange;
+    }
