@@ -1,0 +1,40 @@
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td.one {
+    text-align: center;
+}
+
+td.two {
+    text-align: left;
+}
+
+td.three {
+    text-align: right;
+    width: 80%;
+}
+
+td.one {
+    width: 30%;
+}
+
+td.two {
+    width: 30%;
+}
+
+div {
+    width: 900px;
+    border: 1px solid black;
+    margin: 0px 0px 100px 120px;
+}
+
+th.zero {
+    background-color: lightseagreen;
+    font-size: 120%;
+    font-style: bold;
+    position: sticky;
+    top: 0;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
