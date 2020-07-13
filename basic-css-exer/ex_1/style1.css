@@ -1,0 +1,19 @@
+.center {
+    font-size: 80px;
+    color: Pink;
+}
+
+p.center {
+    font-size: 50px;
+    color: green;
+}
+
+div.center {
+    font-size: 30px;
+    color: yellow;
+}
+
+a.center {
+    font-size: 30px;
+    color: black;
+}
