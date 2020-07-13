@@ -1,35 +1,52 @@
-ul {
-    color: rgb(190, 67, 67);
-}
-
-li.one {
-    list-style-type: none;
-}
-
-li.two {
-    list-style-type: square;
-}
-
-li.four {
-    list-style-type: none;
-    width: 10px;
-    height: 10px;
-    background-image: url('200w.gif');
-    margin-left: -1.1em;
-    margin-right: 2.0em;
-    text-align: center;
-    direction: vertical;
-}
-
-li.alternate {
-    color: red;
-}
-
-li.one {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 5px;
-    background-color: #cae8ca;
-    border: 2px solid #4CAF50;
-}
+                        ul {
+                            color: rgb(190, 67, 67);
+                        }
+                        
+                        li.five {
+                            list-style-type: none;
+                            writing-mode: vertical-rl;
+                        }
+                        
+                        li.two {
+                            list-style-type: square;
+                        }
+                        
+                        li.four {
+                            list-style-type: none;
+                            width: 10px;
+                            height: 10px;
+                            background-image: url('200w.gif');
+                            margin-left: -1.1em;
+                            margin-right: 20;
+                            text-align: left;
+                            writing-mode: horizontal-rl;
+                        }
+                        
+                        li.alternate {
+                            color: red;
+                            width: 5%;
+                            background-color: none;
+                            overflow: auto;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                        }
+                        
+                        .alternate a:hover {
+                            text-decoration: underline;
+                            background-color: gray;
+                        }
+                        
+                        li.one {
+                            position: -webkit-sticky;
+                            position: sticky;
+                            top: 0;
+                            padding: 5px;
+                            background-color: #cae8ca;
+                            border: 2px solid #4CAF50;
+                        }
+                        
+                        li.r {
+                            color: green;
+                        }
